@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h5{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+h6{
+    font-size: 14px;
+}
+
+p{
+    font-size: 16px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #02287A;
+    min-height: 6vh;
+    z-index: 1;
+}
+
+.shadow{
+    background-color: #000;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    right:0;
+    opacity: 0.8;
+    transition: background-color 0.5s ease-out;
+}
+
+.logo{
+    text-transform: uppercase;
+    color: #fff;
+    display: none;
+    padding: 18px 20px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    z-index: 1;
+}
+
+.nav-links li{
+    padding: 18px 20px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.nav-links li a:hover{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.burger-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.burger-menu div{
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1140px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        padding: 2em;
+        position: absolute;
+        right: 0px;
+        height: 94vh;
+        top: 6vh;
+        background-color: #02287A;
+        width: 40%;;
+        display: flex;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .burger-menu{
+        display: inline;
+    }
+    .logo{
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 1140px){
+    .shadow{
+        display: none;
+    }
+}   
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+
+.header-picture{
+    background-image: url("images/yokohama-header.jpg");
+    background-size: 100% 85vh;
+}
+.multiply-picture{
+    display: flex;
+    background-image: linear-gradient(to bottom, rgba(2, 40, 122, 1), rgba(2, 40, 122, 0.5));
+    background-blend-mode: multiply;
+}
+
+.text-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 70vh;
+}
+
+.text-title ul{
+    list-style: none;
+}
+
+/* For footer */
+footer{
+    padding: 2em;
+    background-color: #02287A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+footer .h4{
+    font-weight: 500;
+}
+
+.icons{
+    margin: 0.5em 0.5em 2em 0.5em;
+}
+
+.icons span{
+    margin: 0 0.5em;
+}
+
+.twitter-icon, .facebook-icon{
+    width: 24px;
+    height: 24px;
+}
+
+small{
+    opacity: 0.7;
+}
+
+.divider{
+    background-color: #C4C4C4;
+    height: 100%;
+    width: 1px;
+}
+
+.introduction{
+    display: flex;
+    margin: 3em 4em;
+}
+
+.introduction h2{
+    margin-bottom: 1em;;
+}
+
+.intro-note{
+    padding: 0 2em;
+    flex:2;
+    border-right: 1px solid #C4C4C4;
+}
+
+.intro-note p:nth-child(2){
+    margin-bottom: 1em;
+}
+
+.updates{
+    flex: 1;
+    padding: 0 2em;
+}
+
+.updates ul{
+    list-style: none;
+}
+
+.updates ul li{
+    padding: 0.5em 0;
+}
+
+.updates ul li:nth-child(2){
+    border-bottom: 1px solid #C4C4C4;
+    border-top: 1px solid #C4C4C4;
+}
+
+.updates h4{
+    font-weight: 700;
+}
