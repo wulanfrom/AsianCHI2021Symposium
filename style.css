@@ -193,6 +193,40 @@ nav{
   border: 1px solid #C4C4C4;
 }
 
+.session-schedule {
+  font-size: 16px;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.session-schedule .schedule-time {
+  min-width: 120px;
+  font-size: 14px;
+  background: white;
+  padding: 0rem 0.5rem;
+  border: 1px solid #C4C4C4;
+  text-align: center;
+}
+
+.session-schedule .schedule-content {
+  padding: 1rem 1rem;
+  border: 1px solid #C4C4C4;
+  text-align: left;
+}
+
+.schedule-1 {
+  background: white;
+}
+
+.schedule-2 {
+  background: #F3F6FC;
+}
+
+.contact {
+  display: flex;
+  margin-right: 4rem;
+}
+
 .text-title{
     display: flex;
     flex-direction: column;
