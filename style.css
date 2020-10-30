@@ -36,6 +36,11 @@ p{
     font-size: 16px;
 }
 
+.highlight {
+  font-size: 20px;
+  color: #02287A;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -128,7 +133,7 @@ nav{
     .shadow{
         display: none;
     }
-}   
+}
 
 .nav-active{
     transform: translateX(0%);
@@ -167,6 +172,79 @@ nav{
     background-blend-mode: multiply;
 }
 
+
+.schedule-table {
+    border-spacing: 0;
+    width: 100%;
+}
+
+.schedule-table .schedule-time {
+  background: #F3F6FC;
+  padding: 0rem 1rem;
+  border: 1px solid #C4C4C4;
+  text-align: center;
+}
+
+.schedule-table .schedule-content {
+  background: white;
+  font-size: 20;
+  font-weight: bold;
+  padding: 1.5rem 1.5rem;
+  border: 1px solid #C4C4C4;
+}
+
+.session-schedule {
+  font-size: 16px;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.session-schedule .schedule-time {
+  color: #02287A;
+  min-width: 120px;
+  font-size: 14px;
+  background: white;
+  padding: 0rem 0.5rem;
+  border: 1px solid #C4C4C4;
+  text-align: center;
+}
+
+.session-schedule .schedule-content {
+  padding: 1rem 1rem;
+  border: 1px solid #C4C4C4;
+  text-align: left;
+}
+
+.schedule-1 {
+  background: white;
+}
+
+.schedule-2 {
+  background: #F3F6FC;
+}
+
+.contact {
+  display: flex;
+  margin-right: 4rem;
+}
+
+.best-paper {
+    color: #02287A;
+    font-weight: bold;
+    padding: 3px 10px;
+    border: 2px solid #02287A;
+    border-radius: 5px;
+}
+
+.honorable-mention {
+  color: #0667DB;
+  font-weight: bold;
+  padding: 3px 10px;
+  border: 2px solid #0667DB;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
 .text-title{
     display: flex;
     flex-direction: column;
@@ -180,6 +258,17 @@ nav{
 
 .text-title ul{
     list-style: none;
+}
+
+.table-of-content {
+  display: flex;
+}
+
+.table-of-content li {
+  padding: 0rem 0.5rem;
+  margin: 1rem 0rem;
+  list-style-type: none;
+  border-left: 2px solid black;
 }
 
 /* For footer */
