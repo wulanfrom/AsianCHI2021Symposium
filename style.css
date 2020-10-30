@@ -170,7 +170,7 @@ nav{
 .text-title{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: start;
     justify-content: center;
     align-items: center;
     color: #fff;
@@ -214,11 +214,6 @@ small{
     opacity: 0.7;
 }
 
-.divider{
-    background-color: #C4C4C4;
-    height: 100%;
-    width: 1px;
-}
 
 .introduction{
     display: flex;
@@ -230,7 +225,7 @@ small{
 }
 
 .intro-note{
-    padding: 0 2em;
+    padding-right: 2em;
     flex:2;
     border-right: 1px solid #C4C4C4;
 }
@@ -241,7 +236,7 @@ small{
 
 .updates{
     flex: 1;
-    padding: 0 2em;
+    padding-left: 2em;
 }
 
 .updates ul{
@@ -259,4 +254,150 @@ small{
 
 .updates h4{
     font-weight: 700;
+}
+
+/* Important Dates */
+.important-dates{
+    background-color: #02287A;
+    color: #fff;
+    padding: 3em 4em;
+}
+
+.important-dates h2{
+    font-weight: 700;
+}
+
+.important-dates-table{
+    color: #fff;
+    border-collapse: collapse;
+    margin: 1em 0 2.5em 0;
+    border-radius: 4px;
+}
+
+.important-dates-table th{
+    padding: 1em 2em;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
+
+.important-dates-table tr{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.important-dates-table .middle-info{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.important-dates-table tr:last-child{
+    border-bottom: 1px solid #fff;
+}
+
+.important-dates-table td, th{
+    padding: 1em 2em;
+}
+
+.important-dates-table h6{
+    font-weight: 500;
+    opacity: 0.75;
+}
+
+.default-button{
+    padding: 16px 32px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #0667DB;
+    border: none;
+}
+
+.default-button:hover{
+    background-color: #338FFC;
+    cursor: pointer;
+}
+
+.make-submission{
+    margin: 0 auto;
+    display: block;
+    font-weight: 700;
+}
+
+/* Keynote Speakers */
+
+.keynote-speakers{
+    padding: 3em 4em;
+}
+
+.speaker-info{
+    margin-top: 2em;
+    display: flex;
+}
+
+.affiliation-link{
+    color: #0667DB;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.speaker1-name{
+    height: 353px;
+    flex: 1;
+}
+
+.speaker-description{
+    flex: 2;
+    margin-left: 2em;
+}
+
+.speaker-description h3{
+    font-weight: 700;
+}
+
+.speaker-description p{
+    padding: 1em 0 0 0;
+}
+
+/* Sponsors */
+.sponsors{
+    padding: 3em 4em;
+}
+
+.sponsors h3{
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+
+.sponsor-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor-logos img{
+    height: 120px;
+    padding: 0 2em;
+}
+
+/* Proceedings */
+.proceedings{
+    padding: 3em 4em;
+}
+
+.proceedings h3{
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+
+
+.proceedings-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proceedings-logos img{
+    height: 120px;
+    padding: 0 2em;
 }
