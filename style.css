@@ -200,6 +200,7 @@ nav{
 }
 
 .session-schedule .schedule-time {
+  color: #02287A;
   min-width: 120px;
   font-size: 14px;
   background: white;
@@ -227,6 +228,23 @@ nav{
   margin-right: 4rem;
 }
 
+.best-paper {
+    color: #02287A;
+    font-weight: bold;
+    padding: 3px 10px;
+    border: 2px solid #02287A;
+    border-radius: 5px;
+}
+
+.honorable-mention {
+  color: #0667DB;
+  font-weight: bold;
+  padding: 3px 10px;
+  border: 2px solid #0667DB;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
 .text-title{
     display: flex;
     flex-direction: column;
@@ -250,7 +268,6 @@ nav{
   padding: 0rem 0.5rem;
   margin: 1rem 0rem;
   list-style-type: none;
-  color: #0667DB;
   border-left: 2px solid black;
 }
 
