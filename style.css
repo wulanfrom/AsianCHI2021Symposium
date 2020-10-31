@@ -26,6 +26,8 @@ h4{
 h5{
     font-size: 16px;
     text-transform: uppercase;
+    color: #02287A;
+    font-weight: 500;
 }
 
 h6{
@@ -250,7 +252,7 @@ nav{
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    align-items: center;
+    margin-left: 4rem;
     color: #fff;
     width: 100%;
     height: 70vh;
@@ -489,4 +491,93 @@ small{
 .proceedings-logos img{
     height: 120px;
     padding: 0 2em;
+}
+
+
+/* Call for participation EN page */
+.submission-details h2{
+    margin: 52px 0 24px 0;
+}
+
+.document{
+    margin: 2em 0;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    padding: 24px;
+    border: 1px solid #C4C4C4;
+    background-color: #F3F6FC;
+    border-radius: 4px;
+}
+
+.document div{
+    margin-left: 2em;
+}
+
+.submission-details .default-button{
+    font-weight: 700;
+}
+
+.themes h2{
+    margin: 52px 0 24px 0;
+}
+
+.themes-points{
+    margin: 14px 0 52px 3em;
+}
+
+.important-dates-overview{
+    width: 100%;
+    margin: 24px 0 52px 0;
+}
+
+.important-dates-overview th{
+    background-color: #F3F6FC;
+    text-align: start;
+}
+
+.important-dates-overview td{
+    padding: 24px;
+    background-color: #fff;
+}
+
+.important-date{
+    font-weight: 700;
+}
+
+.submission-intro{
+    margin: 52px 4em;
+}
+
+.submission-intro ul{
+    margin-left: 2em;
+}
+
+.original-works{
+    margin: 52px 3em;
+}
+
+.original-works ul{
+    margin-left: 1em;
+    list-style: none;
+}
+
+.showcase{
+    margin: 52px 3em;
+}
+
+.posters{
+    margin: 0 3em;
+}
+
+.selection-process{
+    margin: 52px 0 52px 3em;
+}
+
+.funding-support{
+    margin: 52px 0 52px 3em;
+}
+
+.questions-call{
+    margin: 0 3em 52px 3em;
 }
