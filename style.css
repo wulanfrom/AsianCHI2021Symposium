@@ -554,7 +554,6 @@ small{
 .important-dates-overview{
     width: 100%;
     margin: 24px 0 52px 0;
-    border: 1px solid #C4C4C4; 
 }
 
 .important-dates-overview th{
@@ -606,4 +605,29 @@ small{
 
 .questions-call{
     margin: 0 3em 52px 3em;
+}
+
+/* Awards Page */
+.paper-title{
+    font-weight: 700;
+}
+
+.awards-list{
+    margin: 2rem 4rem;
+}
+
+.awards-list h5{
+    margin-top: 24px;
+}
+
+.awards-list ul{
+    list-style: none;
+}
+
+.awards-list ul li{
+    margin: 8px 0;
+}
+
+.questions-awards{
+    margin: 0 4em 52px 4em;
 }
