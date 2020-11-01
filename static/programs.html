@@ -19,12 +19,12 @@
                 <ul class="nav-links">
                     <li> <a href="./index.html">Home</a> </li>
                     <li> <a href="./programs.html">Programs</a> </li>
-                    <li> <a href="">Attending</a> </li>
+                    <li> <a href="./attending.html">Attending</a> </li>
                     <li> <a href="./cfpEn.html">Call For Papers (EN)</a> </li>
                     <li> <a href="./cfpJp.html">Call For Papers (JP)</a> </li>
                     <li> <a href="./awards.html">Awards</a> </li>
                     <li> <a href="./organizers.html">Organizers</a> </li>
-                    <li> <a href="">Past Events</a> </li>
+                    <li> <a href="./pastEvents.html">Past Events</a> </li>
                 </ul>
                 <div class="burger-menu">
                     <!-- <img id="menu-icon" src="icons/menu.svg" alt="burger-menu"> -->
@@ -49,36 +49,36 @@
         <script src="../app.js"></script>
 
         <main>
-            <div style="margin: 2rem 4rem">
+            <div style="margin: 2em 4em">
               <ul class="table-of-content">
-                <li style="border-left: 0px;"><a href="#" style="text-decoration: none; color: #0667DB;">Date & Venue</a>                </li>
+                <li style="border-left: 0px; padding-left:0"><a href="#" style="text-decoration: none; color: #0667DB;">Date & Venue</a>                </li>
                 <li> <a href="#" style="text-decoration: none; color: #0667DB;"> Schedule Overview </a> </li>
                 <li> <a href="#" style="text-decoration: none; color: #0667DB;"> Keynote Speakers </a> </li>
                 <li> <a href="#" style="text-decoration: none; color: #0667DB;"> Parallel Sessions </a> </li>
                 <li> <a href="#" style="text-decoration: none; color: #0667DB;"> Showcase </a> </li>
               </ul>
               <h2> Data & Venue </h2>
-              <p style="margin: 16px 0px;"> The conference will take place on <span class="highlight"> January 12, 2021</span> in <span class="highlight"> Yokohama, Japan</span> </p>
+              <p style="margin: 24px 0px;"> The conference will take place on <span class="highlight"> January 12, 2021</span> in <span class="highlight"> Yokohama, Japan</span> </p>
               <div style="display: flex;">
-                <img src="../images/yokohama-venue.jpg" alt="Yokohama Venue" style="width: 353px; height: 353px;">
+                <img src="../images/yokohama-venue.jpg" alt="Yokohama Venue" style="width: 353px; height: 353px; border-radius: 4px">
                 <div style="margin: 0px 26px;">
                   <h3 style='font-weight: bold;'> Venue Information </h3>
-                  <p style="margin-top: 16px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <p style="margin-top: 24px;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                 </div>
               </div>
             </div>
-            <div style="background: #02287A; padding: 2rem 4rem;">
-              <h2 style="color: white; margin-bottom: 1.5rem; "> Schedule Overview </h2>
+            <div style="background: #02287A; padding: 2em 4em;">
+              <h2 style="color: white; margin-bottom: 24px; "> Schedule Overview </h2>
               <table class="schedule-table">
                 <tbody>
                   <tr>
                     <td class="schedule-time"> 11:40 - 12:00 </td>
                     <td class="schedule-content">
                       Virtual Registration. Participants join on Zoom. Re-read instructions
-                      <p style="font-weight: 400; color: #8C8C8C; font-style: italic;"> **Participants must be well informed of their schedule, and follow the instruction prepared by the organizers.</p>
+                      <p style="font-weight: 400; color: #8C8C8C; font-style: italic; font-size: 14px;"> **Participants must be well informed of their schedule, and follow the instruction prepared by the organizers.</p>
                     </td>
                   </tr>
                   <tr>
@@ -91,7 +91,10 @@
                     <td class="schedule-time"> 12:15 - 13:00 </td>
                     <td class="schedule-content">
                       Keynote #1:  Shengdong "Shen" Zhao, National University of Singapore
-                      <p style="color: #0667DB; font-style: italic;"> Bio & Abstract </p>
+                      <!-- <p style="color: #0667DB; font-style: italic;"> Bio & Abstract </p> -->
+                      <div class="group-links">
+                        <a href=""><h6>Bio & Abstract</h6></a>
+                      </div>
                     </td>
                   </tr>
                   <tr>
@@ -103,9 +106,13 @@
                   <tr>
                     <td class="schedule-time"> 13:10 - 14:20 </td>
                     <td class="schedule-content">
-                      Parallel Session 1
-                      <p style="color: #0667DB; font-style: italic;"> Group A - Interaction Techniques </p>
-                      <p style="color: #0667DB; font-style: italic;"> Group B - Localized Studies </p>
+                      <p>Parallel Session 1</p>
+                      <!-- <p style="color: #0667DB; font-style: italic;"> Group A - Interaction Techniques </p> -->
+                      <!-- <p style="color: #0667DB; font-style: italic;"> Group B - Localized Studies </p> -->
+                      <div class="group-links">
+                        <a href=""><h6>Group A - Interaction Techniques</h6></a>
+                        <a href=""><h6>Group B - Localized Studies</h6></a>
+                      </div>
                     </td>
                   </tr>
                   <tr>
@@ -118,8 +125,12 @@
                     <td class="schedule-time"> 13:10 - 14:20 </td>
                     <td class="schedule-content">
                       Parallel Session 2
-                      <p style="color: #0667DB; font-style: italic;"> Group C - Health and Self-Improvement </p>
-                      <p style="color: #0667DB; font-style: italic;"> Group D - Communities and Societies  </p>
+                      <!-- <p style="color: #0667DB; font-style: italic;"> Group C - Health and Self-Improvement </p>
+                      <p style="color: #0667DB; font-style: italic;"> Group D - Communities and Societies  </p> -->
+                      <div class="group-links">
+                        <a href=""><h6>Group C - Health and Self-Improvement</h6></a>
+                        <a href=""><h6>Group D - Communities and Societies</h6></a>
+                      </div>
                     </td>
                   </tr>
                   <tr>
@@ -154,345 +165,357 @@
                   </tr>
               </table>
             </div>
-            <div style="background: #F6F6F6; padding: 2rem 4rem;">
-              <h2 style="margin-bottom: 1.5rem; "> Keynote Speakers </h2>
-              <div style="display: flex;margin-botton: 2rem;">
-                <img src="../images/yokohama-venue.jpg" alt="Yokohama Venue" style="width: 353px; height: 353px;">
-                <div style="margin: 0px 26px;">
-                  <h3 style='font-weight: bold;'> Shengdong Zhao </h3>
-                  <h4> <a href="#" style="font-weight: 700; font-style: italic; color: #0667DB; text-decoration: none;">Affiliation (Link)</a></h4>
-                  <p style="margin-top: 16px;"> Dr. Shengdong Zhao is an Associate Professor in the Department of Computer Science, National University of Singapore.
-                    He established the NUS-HCI research lab. Dr. Zhao completes his Ph.D. degree in Computer Science at the University of Toronto.
-                    He also holds a Master’s degree in Information Management & Systems from the University of California at Berkeley.
-                    Dr. Zhao has a wealth of experience in developing new interface tools and applications (i.e., Draco, won best iPad App of the year in 2016),
-                    and publishes regularly in top HCI conferences and journals. He also works closely with the industry, and currently serves as a senior consultant with the
-                     Huawei Consumer Business Group.  </p>
+            <div style="background: #F6F6F6">
+              <div class="keynote-speaker-wrapper" style="padding: 2em 4em">
+                <h2 style="margin-bottom: 24px"> Keynote Speakers </h2>
+                <div style="display: flex;margin-botton: 2rem;">
+                  <img src="../images/speaker1-name.png" alt="Yokohama Venue" style="width: 353px; height: 353px; border-radius: 4px">
+                  <div style="margin: 0px 26px;">
+                    <h3 style='font-weight: bold;'> Shengdong Zhao </h3>
+                    <h4> <a href="#" style="font-weight: 700; font-style: italic; color: #0667DB; text-decoration: none;">Affiliation (Link)</a></h4>
+                    <p style="margin-top: 16px;"> Dr. Shengdong Zhao is an Associate Professor in the Department of Computer Science, National University of Singapore.
+                      He established the NUS-HCI research lab. Dr. Zhao completes his Ph.D. degree in Computer Science at the University of Toronto.
+                      He also holds a Master’s degree in Information Management & Systems from the University of California at Berkeley.
+                      Dr. Zhao has a wealth of experience in developing new interface tools and applications (i.e., Draco, won best iPad App of the year in 2016),
+                      and publishes regularly in top HCI conferences and journals. He also works closely with the industry, and currently serves as a senior consultant with the
+                      Huawei Consumer Business Group.  </p>
+                  </div>
                 </div>
               </div>
-              <h2 style="margin: 1.5rem 0rem;"> Parallel Session 1</h2>
-              <table class="session-schedule">
-                <thead>
-                  <tr>
-                    <th class="schedule-time" style="color: black;"> Time </th>
-                    <th class="schedule-1 schedule-content" style="text-align: center">
-                      Group A: Interaction Techniques
-                      <p style="color: #02287A"> Chair: Lorem ipsum </p>
-                    </th>
-                    <th class="schedule-2 schedule-content" style="text-align: center">
-                      Group B: Localized Studies
-                      <p style="color: #02287A"> Chair: Lorem ipsum </p>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="schedule-time"> 11:40 - 12:00 </td>
-                    <td class="schedule-1 schedule-content">
-                      <div style="display: flex; margin-bottom: 8px;">
-                        <div class="honorable-mention">
-                          HONORABLE MENTION
+              <div class="parallel-session1-wrapper" style="padding: 2em 4em">
+                <h2 style="margin-bottom: 24px"> Parallel Session 1</h2>
+                <table class="session-schedule">
+                  <thead>
+                    <tr>
+                      <th class="schedule-time" style="color: black;"> Time </th>
+                      <th class="schedule-1 schedule-content" style="text-align: center">
+                        Group A: Interaction Techniques
+                        <h6 style="color: #02287A"> Chair: Lorem ipsum </h6>
+                      </th>
+                      <th class="schedule-2 schedule-content" style="text-align: center">
+                        Group B: Localized Studies
+                        <h6 style="color: #02287A"> Chair: Lorem ipsum </h6>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="schedule-time"> 11:40 - 12:00 </td>
+                      <td class="schedule-1 schedule-content">
+                        <div style="display: flex; margin-bottom: 8px;">
+                          <div class="honorable-mention">
+                            HONORABLE MENTION
+                          </div>
+                          <div class="best-paper">
+                            BEST PAPER
+                          </div>
                         </div>
-                        <div class="best-paper">
-                          BEST PAPER
-                        </div>
-                      </div>
-                      <p style="font-weight: bold;"> Water Flow Visualization for Swimming using Nanocellulose </p>
-                      <p style="font-size: 14px;"> Shogo Yamashita (The University of Tokyo) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Water Flow Visualization for Swimming using Nanocellulose </p>
-                      <p style="font-size: 14px;"> Shogo Yamashita (The University of Tokyo) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h2 style="margin: 1.5rem 0rem;"> Parallel Session 2</h2>
-              <table class="session-schedule">
-                <thead>
-                  <tr>
-                    <th class="schedule-time" style="color: black;"> Time </th>
-                    <th class="schedule-1 schedule-content" style="text-align: center">
-                      Group A: Interaction Techniques
-                      <p style="color: #02287A"> Chair: Lorem ipsum </p>
-                    </th>
-                    <th class="schedule-2 schedule-content" style="text-align: center">
-                      Group B: Localized Studies
-                      <p style="color: #02287A"> Chair: Lorem ipsum </p>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="schedule-time"> 11:40 - 12:00 </td>
-                    <td class="schedule-1 schedule-content">
-                      <div style="display: flex; margin-bottom: 8px;">
-                        <div class="honorable-mention">
-                          HONORABLE MENTION
-                        </div>
-                        <div class="best-paper">
-                          BEST PAPER
-                        </div>
-                      </div>
-                      <p style="font-weight: bold;"> Water Flow Visualization for Swimming using Nanocellulose </p>
-                      <p style="font-size: 14px;"> Shogo Yamashita (The University of Tokyo) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Water Flow Visualization for Swimming using Nanocellulose </p>
-                      <p style="font-size: 14px;"> Shogo Yamashita (The University of Tokyo) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <h2 style="margin: 1.5rem 0rem;"> Showcase </h2>
-              <table class="session-schedule">
-                <thead>
-                  <tr>
-                    <th class="schedule-time" style="color: black;"> Time </th>
-                    <th class="schedule-1 schedule-content" style="text-align: center">
-                      Group A: Interaction Techniques
-                      <p style="color: #02287A"> Chair: Lorem ipsum </p>
-                    </th>
-                    <th class="schedule-2 schedule-content" style="text-align: center">
-                      Group B: Localized Studies
-                      <p style="color: #02287A"> Chair: Lorem ipsum </p>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="schedule-time"> 11:40 - 12:00 </td>
-                    <td class="schedule-1 schedule-content">
-                      <div style="display: flex; margin-bottom: 8px;">
-                        <div class="honorable-mention">
-                          HONORABLE MENTION
-                        </div>
-                        <div class="best-paper">
-                          BEST PAPER
-                        </div>
-                      </div>
-                      <p style="font-weight: bold;"> Water Flow Visualization for Swimming using Nanocellulose </p>
-                      <p style="font-size: 14px;"> Shogo Yamashita (The University of Tokyo) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Water Flow Visualization for Swimming using Nanocellulose </p>
-                      <p style="font-size: 14px;"> Shogo Yamashita (The University of Tokyo) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="schedule-time"> 13:10 - 13:20 </td>
-                    <td class="schedule-1 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                    <td class="schedule-2 schedule-content">
-                      <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
-                      <p style="font-size: 14px;">
-                        Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <div style="margin: 1.5rem 0rem;">
-                <h3 style="margin-top: 1rem;"> Have Questions? Contact Our Program Chairs </h3>
-                <p style="color: #0667DB; font-weight: bold;"> paperchairemail@something.com </p>
+                        <p style="font-weight: bold;"> Water Flow Visualization for Swimming using Nanocellulose </p>
+                        <p style="font-size: 14px;"> Shogo Yamashita (The University of Tokyo) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Water Flow Visualization for Swimming using Nanocellulose </p>
+                        <p style="font-size: 14px;"> Shogo Yamashita (The University of Tokyo) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-              <div style="display: flex;">
-                <div class="contact">
-                    <div style="width: 120px; height: 120px; background: #C4C4C4"></div>
-                    <div class="" style="margin-left: 1.5rem;">
-                      <p style="font-style: bold"> Lorem Ipsum </p>
-                      <p style="color: #0667DB"> Affiliation 1 </p>
-                    </div>
+              <div class="parallel-session2-wrapper" style="padding: 2em 4em">
+                <h2 style="margin: 1.5rem 0rem;"> Parallel Session 2</h2>
+                <table class="session-schedule">
+                  <thead>
+                    <tr>
+                      <th class="schedule-time" style="color: black;"> Time </th>
+                      <th class="schedule-1 schedule-content" style="text-align: center">
+                        Group A: Interaction Techniques
+                        <h6 style="color: #02287A"> Chair: Lorem ipsum </h6>
+                      </th>
+                      <th class="schedule-2 schedule-content" style="text-align: center">
+                        Group B: Localized Studies
+                        <h6 style="color: #02287A"> Chair: Lorem ipsum </h6>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="schedule-time"> 11:40 - 12:00 </td>
+                      <td class="schedule-1 schedule-content">
+                        <div style="display: flex; margin-bottom: 8px;">
+                          <div class="honorable-mention">
+                            HONORABLE MENTION
+                          </div>
+                          <div class="best-paper">
+                            BEST PAPER
+                          </div>
+                        </div>
+                        <p style="font-weight: bold;"> Water Flow Visualization for Swimming using Nanocellulose </p>
+                        <p style="font-size: 14px;"> Shogo Yamashita (The University of Tokyo) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Water Flow Visualization for Swimming using Nanocellulose </p>
+                        <p style="font-size: 14px;"> Shogo Yamashita (The University of Tokyo) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="showcase-wrapper" style="padding: 2em 4em">
+                <h2 style="margin: 1.5rem 0rem;"> Showcase </h2>
+                <table class="session-schedule">
+                  <thead>
+                    <tr>
+                      <th class="schedule-time" style="color: black;"> Time </th>
+                      <th class="schedule-1 schedule-content" style="text-align: center">
+                        Group A: Interaction Techniques
+                        <h6 style="color: #02287A"> Chair: Lorem ipsum </h6>
+                      </th>
+                      <th class="schedule-2 schedule-content" style="text-align: center">
+                        Group B: Localized Studies
+                        <h6 style="color: #02287A"> Chair: Lorem ipsum </h6>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="schedule-time"> 11:40 - 12:00 </td>
+                      <td class="schedule-1 schedule-content">
+                        <div style="display: flex; margin-bottom: 8px;">
+                          <div class="honorable-mention">
+                            HONORABLE MENTION
+                          </div>
+                          <div class="best-paper">
+                            BEST PAPER
+                          </div>
+                        </div>
+                        <p style="font-weight: bold;"> Water Flow Visualization for Swimming using Nanocellulose </p>
+                        <p style="font-size: 14px;"> Shogo Yamashita (The University of Tokyo) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Water Flow Visualization for Swimming using Nanocellulose </p>
+                        <p style="font-size: 14px;"> Shogo Yamashita (The University of Tokyo) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="schedule-time"> 13:10 - 13:20 </td>
+                      <td class="schedule-1 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                      <td class="schedule-2 schedule-content">
+                        <p style="font-weight: bold;"> Gaze-based Command Activation Technique using Two-level Stroke </p>
+                        <p style="font-size: 14px;">
+                          Toshiya Isomoto (University of Tsukuba); Shota Yamanaka (Yahoo! JAPAN); Buntarou Shizuki (University of Tsukuba) </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="have-questions" style="padding: 2em 4em 3em 4em">
+                <div style="margin-bottom: 1.5rem;">
+                  <h3 style="font-weight: 700"> Have Questions? Contact Our Program Chairs </h3>
+                  <a href="" style="color: #0667DB; font-weight: bold; text-decoration: none;">paperchairemail@something.com </a>
                 </div>
-                <div class="contact">
-                    <div style="width: 120px; height: 120px; background: #C4C4C4"></div>
-                    <div class="" style="margin-left: 1.5rem;">
-                      <p style="font-style: bold"> Lorem Ipsum </p>
-                      <p style="color: #0667DB"> Affiliation 1 </p>
-                    </div>
+                <div style="display: flex;">
+                  <div class="contact">
+                      <!-- <div style="width: 120px; height: 120px; background: #C4C4C4"></div> -->
+                      <img class="chairs-headshot" alt="program-chair-1" src="../images/chair-placeholder.JPG">
+                      <div class="" style="margin-left: 1.5rem;">
+                        <p style="font-style: bold"> Lorem Ipsum </p>
+                        <a href="" class="affiliation-link">Affiliation Link</a>
+                      </div>
+                  </div>
+                  <div class="contact">
+                      <!-- <div style="width: 120px; height: 120px; background: #C4C4C4"></div> -->
+                      <img class="chairs-headshot" alt="program-chair-1" src="../images/chair-placeholder.JPG">
+                      <div class="" style="margin-left: 1.5rem;">
+                        <p style="font-style: bold"> Lorem Ipsum </p>
+                        <a href="" class="affiliation-link">Affiliation Link</a>
+                      </div>
+                  </div>
                 </div>
               </div>
             </div>
