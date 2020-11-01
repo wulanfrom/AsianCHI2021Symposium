@@ -135,6 +135,11 @@ nav{
     .logo{
         display: inline;
     }
+    .logo a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+    }
 }
 
 @media screen and (min-width: 1140px){
@@ -320,7 +325,7 @@ nav{
 
 /* For footer */
 footer{
-    padding: 2em;
+    padding: 3em 2em 2em 2em;
     background-color: #02287A;
     display: flex;
     flex-direction: column;
@@ -556,12 +561,13 @@ small{
 
 
 /* Call for participation EN page */
-.submission-details h2{
-    margin: 52px 0 24px 0;
+
+.submission-details{
+    padding: 2em 0;
 }
 
 .document{
-    margin: 2em 0;
+    margin: 24px 0;
     display: flex;
     width: 50%;
     align-items: center;
@@ -579,26 +585,33 @@ small{
     font-weight: 700;
 }
 
+.themes{
+    padding: 2em 0;
+}
+
 .themes h2{
-    margin: 52px 0 24px 0;
+    margin-bottom: 24px;
 }
 
 .themes-points{
-    margin: 14px 0 52px 3em;
+    margin: 0 0 0 3em;
 }
 
 .important-dates-overview{
+    border: 1px solid #C4C4C4;
     width: 100%;
     margin: 24px 0 52px 0;
     border-spacing: 0;
 }
 
 .important-dates-overview th{
+    border: 1px solid #C4C4C4;
     background-color: #F3F6FC;
     text-align: start;
 }
 
 .important-dates-overview td{
+    border: 1px solid #C4C4C4;
     padding: 24px;
     background-color: #fff;
     border: 1px solid #C4C4C4;
@@ -609,7 +622,7 @@ small{
 }
 
 .submission-intro{
-    margin: 52px 4em;
+    margin: 3em 4em;
 }
 
 .submission-intro ul{
@@ -617,7 +630,7 @@ small{
 }
 
 .original-works{
-    margin: 52px 3em;
+    padding: 2em 4em;
 }
 
 .original-works ul{
@@ -626,23 +639,23 @@ small{
 }
 
 .showcase{
-    margin: 52px 3em;
+    padding: 2em 4em;
 }
 
 .posters{
-    margin: 0 3em;
+    padding: 2em 4em;
 }
 
 .selection-process{
-    margin: 52px 0 52px 3em;
+    padding: 2em 4em;
 }
 
 .funding-support{
-    margin: 52px 0 52px 3em;
+    padding: 2em 4em;
 }
 
 .questions-call{
-    margin: 0 3em 52px 3em;
+    margin: 2em 4em;
 }
 
 /* Awards Page */
@@ -651,7 +664,7 @@ small{
 }
 
 .awards-list{
-    margin: 2rem 4rem;
+    padding: 2rem 4rem;
 }
 
 .awards-list h5{
@@ -671,12 +684,16 @@ small{
 }
 /* Past Events  */
 .past-events{
-    margin: 52px 0 10em 4em;
+    margin: 5em 0 10em 4em;
 }
 
 /* Attending page */
-.registration{
-    margin: 3em 4em;
+.register-div{
+    padding: 3em 4em;
+}
+
+.code-of-conduct{
+    padding: 2em 4em;
 }
 
 .important-dates-table-responsive{
@@ -761,4 +778,16 @@ small{
         width: 100%;
     }
 
+}
+
+
+/* Organizers */
+.program-committee tr td{
+    border: 1px solid #C4C4C4;
+}
+
+.chair-picture{
+    width: 120px; 
+    height: 120px;
+    border-radius: 4px;
 }
