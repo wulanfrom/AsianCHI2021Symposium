@@ -26,6 +26,11 @@ const navSlide = () => {
     })
 }
 
+const tableWrapping = () => {
+    $('.important-dates-table td').unwrap();
+    $('.important-dates-table td').wrapAll('<tr></tr>');
+}
+
 const app = () => {
     navSlide();
 }

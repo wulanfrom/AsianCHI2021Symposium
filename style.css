@@ -38,6 +38,12 @@ p{
     font-size: 16px;
 }
 
+table{
+    border-collapse: collapse;
+    border-radius: 4px;
+    overflow:hidden;
+}
+
 .highlight {
   font-size: 20px;
   color: #02287A;
@@ -189,7 +195,7 @@ nav{
 
 .schedule-table .schedule-content {
   background: white;
-  font-size: 20;
+  font-size: 16;
   font-weight: bold;
   padding: 1.5rem 1.5rem;
   border: 1px solid #C4C4C4;
@@ -217,6 +223,12 @@ nav{
   text-align: left;
 }
 
+.group-links a{
+    text-decoration: none;
+    color: #0667DB; 
+    font-style: italic;
+}
+
 .schedule-1 {
   background: white;
 }
@@ -230,12 +242,19 @@ nav{
   margin-right: 4rem;
 }
 
+.chairs-headshot{
+    height: 120px;
+    width: 120px;
+    border-radius: 4px;
+}
+
 .best-paper {
     color: #02287A;
     font-weight: bold;
     padding: 3px 10px;
     border: 2px solid #02287A;
     border-radius: 5px;
+    font-size: 14px;
 }
 
 .honorable-mention {
@@ -245,6 +264,7 @@ nav{
   border: 2px solid #0667DB;
   border-radius: 5px;
   margin-right: 1rem;
+  font-size: 14px;
 }
 
 .chair-section {
@@ -337,7 +357,7 @@ small{
 }
 
 .introduction h2{
-    margin-bottom: 1em;;
+    margin-bottom: 24px;
 }
 
 .intro-note{
@@ -368,6 +388,14 @@ small{
     border-top: 1px solid #C4C4C4;
 }
 
+.updates ul li:nth-child(1){
+    padding-top: 0;
+}
+
+.updates h2{
+    margin-bottom: 24px;
+}
+
 .updates h4{
     font-weight: 700;
 }
@@ -384,13 +412,15 @@ small{
 }
 
 .important-dates-table{
+    width: 100%;
     color: #fff;
     border-collapse: collapse;
-    margin: 1em 0 2.5em 0;
+    margin: 24px 0 2.5em 0;
     border-radius: 4px;
 }
 
 .important-dates-table th{
+    width: 33%;
     padding: 1em 2em;
     text-transform: uppercase;
     border: 1px solid #fff;
@@ -446,8 +476,14 @@ small{
 }
 
 .speaker-info{
-    margin-top: 2em;
+    margin-top: 24px;
     display: flex;
+}
+
+.speaker-info img{
+    height: 353px;
+    width: 353px;
+    border-radius: 4px;
 }
 
 .affiliation-link{
@@ -458,7 +494,7 @@ small{
 }
 
 .speaker1-name{
-    height: 353px;
+    width: 353px;
     flex: 1;
 }
 
@@ -482,7 +518,7 @@ small{
 
 .sponsors h3{
     font-weight: 700;
-    margin-bottom: 2em;
+    margin-bottom: 24px;
 }
 
 .sponsor-logos{
@@ -503,7 +539,7 @@ small{
 
 .proceedings h3{
     font-weight: 700;
-    margin-bottom: 2em;
+    margin-bottom: 24px;
 }
 
 
@@ -630,4 +666,98 @@ small{
 
 .questions-awards{
     margin: 0 4em 52px 4em;
+}
+
+/* Past Events  */
+.past-events{
+    margin: 52px 0 10em 4em;
+}
+
+/* Attending page */
+.registration{
+    margin: 3em 4em;
+}
+
+.important-dates-table-responsive{
+    display: none;
+}
+
+.important-dates-table-responsive tr{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    border: 1px solid #C4C4C4;
+}
+
+.important-dates-table-responsive th{
+    border-bottom: 1px solid #C4C4C4;
+    padding: 1em 2em;
+}
+
+.important-dates-table-responsive td{
+    padding: 1em 2em;
+}
+
+.important-dates-table-responsive{
+    margin: 24px 0 2em 0;
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 600px){
+    .text-title h1{
+        font-size: 42px;
+    }
+
+    .introduction{
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .intro-note{
+        border: none;
+        border-bottom: 1px solid #C4C4C4;
+        padding-bottom: 2em;
+    }
+
+    .updates{
+        margin-top: 2em;
+        padding: 0;
+    }
+
+    .important-dates-table{
+        display: none;
+    }
+
+    .important-dates-table-responsive{
+        display: inline-block;
+    }
+
+    .speaker-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .speaker-description{
+        margin: 24px 0 0 0;
+    }
+
+    .speaker-info img{
+        margin: 0 auto;
+        height: 250px;
+        width: 250px;
+    }
+
+    .sponsors h3{
+        margin-bottom: 24px;
+    }
+
+    .sponsor-logos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sponsor-logos img{
+        width: 100%;
+    }
+
 }
