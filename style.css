@@ -601,6 +601,7 @@ small{
     border: 1px solid #C4C4C4;
     width: 100%;
     margin: 24px 0 52px 0;
+    border-spacing: 0;
 }
 
 .important-dates-overview th{
@@ -613,6 +614,7 @@ small{
     border: 1px solid #C4C4C4;
     padding: 24px;
     background-color: #fff;
+    border: 1px solid #C4C4C4;
 }
 
 .important-date{
@@ -680,7 +682,6 @@ small{
 .questions-awards{
     margin: 0 4em 52px 4em;
 }
-
 /* Past Events  */
 .past-events{
     margin: 5em 0 10em 4em;
