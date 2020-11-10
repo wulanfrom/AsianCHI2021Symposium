@@ -284,6 +284,11 @@ nav{
     font-size: 14px;
 }
 
+.honorary {
+    display: flex; 
+    margin-bottom: 8px;
+}
+
 .honorable-mention {
   color: #0667DB;
   font-weight: bold;
@@ -885,8 +890,20 @@ small{
     }
 
     /* Programs */
+    .best-paper {
+        width: auto;
+        margin-top: 1rem;
+        text-align: center;
+    }
     .date-venue{
         flex-direction: column;
+    }
+    .honorary {
+        flex-direction: column;
+    }
+    .honorable-mention {
+        width: 100%;
+        text-align: center;
     }
     .venue-info{
         margin: 0;
@@ -902,6 +919,9 @@ small{
     }
     .speaker1-info{
         margin-top: 24px;
+    }
+    .session-schedule .schedule-time {
+        min-width: auto;
     }
 
     /* Call for Papers */
