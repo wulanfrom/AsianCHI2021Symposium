@@ -308,6 +308,11 @@ nav{
   margin-bottom: 1rem;
 }
 
+.program-committee h3{
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
 .program-committee table{
   width: 100%;
   text-align: center;
@@ -794,6 +799,10 @@ small{
 }
 
 /* Organizers */
+.organizer-wrapper{
+    padding: 4em;
+}
+
 .program-committee tr td{
     border: 1px solid #C4C4C4;
 }
@@ -911,6 +920,12 @@ small{
     .attending-wrapper{
         padding: 2em;
     }
+
+    /* Organizers */
+    .organizer-wrapper{
+        padding: 2em;
+    }
+    
 
     /* Footer */
     footer {
