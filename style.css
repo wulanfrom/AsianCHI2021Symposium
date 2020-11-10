@@ -358,6 +358,7 @@ nav{
 
 /* For footer */
 footer{
+    width: 100%;
     padding: 3em 2em 2em 2em;
     background-color: #02287A;
     display: flex;
@@ -696,12 +697,16 @@ small{
     font-weight: 700;
 }
 
-.awards-list{
-    padding: 2rem 4rem;
+.awards-wrapper{
+    padding: 4em;
+}
+
+.awards-list h2{
+    margin: 0 0 0.5em 0;
 }
 
 .awards-list h5{
-    margin-top: 24px;
+    margin: 1.5em 0 0.5em 0;
 }
 
 .awards-list ul{
@@ -890,28 +895,25 @@ small{
     }
 }
 
-@media screen and (max-width: 375px){
-    
-    /* Programs page */
+/* Responsive */
+@media screen and (max-width: 768px){
+    /* Common */
     .table-of-content{
-        display: flex;
-        flex-direction: column;
+        text-align: center;
     }
-    .table-of-content a{
-        border: none;
-    }
-    .session-responsive{
-        display: inline-block;
-    }
-    .session-schedule{
-        display: block;
+
+    /* Awards */
+    .awards-wrapper{
+        padding: 2em;
     }
 
     /* Attending */
     .attending-wrapper{
         padding: 2em;
     }
-    .contacts{
-        flex-direction: column;
+
+    /* Footer */
+    footer {
+        text-align: center;
     }
 }
