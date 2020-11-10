@@ -747,6 +747,14 @@ small{
     padding: 1.5em;
 }
 
+.have-questions {
+    padding: 2em 4em;
+}
+
+.awards-wrapper .have-questions{
+    padding: 0rem;
+}
+
 .have-questions h3 {
     font-weight: 700;
 }
@@ -894,6 +902,15 @@ small{
     }
     .speaker1-info{
         margin-top: 24px;
+    }
+
+    /* Call for Papers */
+    .contacts {
+        flex-direction: column;
+    }
+
+    .document {
+        width: 100%;
     }
 }
 
