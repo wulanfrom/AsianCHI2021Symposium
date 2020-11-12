@@ -73,12 +73,8 @@ nav{
     transition: background-color 0.5s ease-out; */
 /* }  */
 
-.main-logo a{
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
-    padding: 18px 20px;
+.logo {
+    display: none;
 }
 
 .nav-links{
@@ -127,25 +123,32 @@ nav{
         padding: 2em;
         position: absolute;
         right: 0px;
-        height: 94vh;
+        height: 80vh;
         top: 6vh;
         background-color: #02287A;
-        width: 320px;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        transform: translateX(100%);
+        text-align: start;
+        transform: translateY(-120%);
         transition: transform 0.5s ease-in;
     }
     .burger-menu{
         display: inline;
     }
-    .logo{
+    /* .logo{
         display: inline;
+    } */
+    .logo {
+        display: inline-block;
     }
-    .logo a{
+
+    .logo a {
+        text-transform: uppercase;
         text-decoration: none;
         color: #fff;
         font-weight: 700;
+        padding: 18px 20px;
     }
 }
 
@@ -157,6 +160,7 @@ nav{
 
 .nav-active{
     transform: translateX(0%);
+    min-height: 10vh;
 }
 
 @keyframes navLinkFade{
@@ -282,6 +286,7 @@ nav{
     border: 2px solid #02287A;
     border-radius: 5px;
     font-size: 14px;
+    text-align: center;
 }
 
 .honorary {
@@ -297,6 +302,7 @@ nav{
   border-radius: 5px;
   margin-right: 1rem;
   font-size: 14px;
+  text-align: center;
 }
 
 .chair-section {
@@ -478,11 +484,17 @@ small{
 .important-dates-table tr{
     border-right: 1px solid #fff;
     border-left: 1px solid #fff;
+    background-color: #02287A!important;
+}
+
+.important-dates-table tbody{
+    background-color: #02287A;
 }
 
 .important-dates-table .middle-info{
     border-right: 1px solid #fff;
     border-left: 1px solid #fff;
+    
 }
 
 .important-dates-table tr:last-child{
@@ -491,6 +503,7 @@ small{
 
 .important-dates-table td, th{
     padding: 1em 2em;
+    background-color: #02287A;
 }
 
 .important-dates-table h6{
@@ -962,7 +975,34 @@ small{
     .organizer-wrapper{
         padding: 2em;
     }
-    
+
+    /* Home */
+    .logo a{
+        display: inline;
+        width: 100%;
+    }
+
+    .speaker-info img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .sponsors h2 {
+        margin-bottom: 24px;
+    }
+
+    .sponsor-logos img {
+        height: 90px;
+    }
+
+    .proceedings h2 {
+        margin-bottom: 24px;
+    }
+
+    /* Programs */
+    .schedule-table .schedule-time{
+        text-align: center;
+    }
 
     /* Footer */
     footer {
