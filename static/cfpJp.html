@@ -67,12 +67,12 @@
         <main>
             <div style="margin: 2rem 4rem">
               <ul class="table-of-content">
-                <li style="border-left: 0px; padding-left: 0"><a href="#" style="text-decoration: none; color: #0667DB;">Themes</a>                </li>
-                <li> <a href="#" style="text-decoration: none; color: #0667DB;"> Important Dates</a> </li>
-                <li> <a href="#" style="text-decoration: none; color: #0667DB;"> Original Works </a> </li>
-                <li> <a href="#" style="text-decoration: none; color: #0667DB;"> Showcase </a> </li>
-                <li> <a href="#" style="text-decoration: none; color: #0667DB;"> Posters </a> </li>
-                <li> <a href="#" style="text-decoration: none; color: #0667DB;"> Funding Support </a> </li>
+                <li style="border-left: 0px; padding-left: 0"><a href="#themes" style="text-decoration: none; color: #0667DB;">Themes</a>                </li>
+                <li> <a href="#important-dates" style="text-decoration: none; color: #0667DB;"> Important Dates</a> </li>
+                <li> <a href="#original-works" style="text-decoration: none; color: #0667DB;"> Original Works </a> </li>
+                <li> <a href="#showcase" style="text-decoration: none; color: #0667DB;"> Showcase </a> </li>
+                <li> <a href="#posters" style="text-decoration: none; color: #0667DB;"> Posters </a> </li>
+                <li> <a href="#funding-support" style="text-decoration: none; color: #0667DB;"> Funding Support </a> </li>
               </ul>
               <p>The Asian CHI Symposium invites latest contributions from Asian researchers based in Asia and abroad working on HCI research for any technology, domain and regional context. We also welcome contributions from non-Asian researchers focused on incorporating Asian sociocultural factors in their design and implementation of computing systems. Showcasing works from Asian researchers and those closely related to the Asian culture and society, the symposium promotes the region's unique problems and approaches to the global community. It also intends to foster a network of young researchers like masters students, and more specifically, senior doctoral candidates and those who recently graduated. We encourage the participation of researchers and practitioners from Asian communities in all career stages (e.g., seasoned academics, early career researchers, graduate students, and even undergraduates who have strong interests in HCI).</p>
               <div class="submission-details">
@@ -86,7 +86,7 @@
                 </div>
                 <button class="default-button">Make a Submission</button>
               </div>
-              <div class="themes">
+              <div id="themes" class="themes">
                   <h2>Themes</h2>
                   <p>We invite submissions on any of the following research themes and/or contributions:</p>
                   <div class="themes-points">
@@ -101,7 +101,7 @@
                 </div>
               </div>
             </div>
-            <div class="important-dates">
+            <div id="important-dates" class="important-dates">
                 <h2>Important Dates</h2>
                 <table class="important-dates-overview">
                     <tr>
@@ -197,7 +197,7 @@
                 </ul>
             </div>
             <div class="original-works">
-                <h2 style="margin-bottom: 24px">Original Works</h2>
+                <h2 id="original-works" style="margin-bottom: 24px">Original Works</h2>
                 <p>Original works either</p>
                 <ul style="margin: 16px 0 16px 1em">
                     <li>1. present completed systems and studies,</li>
@@ -220,7 +220,7 @@
                 <p><b>For those who will choose (2) or (3)</b></p>
                 <p style="margin: 16px 0 16px 1em">Their title and list of authors will be included in the front matter of the proceedings. These options provide enough flexibility for work-in-progress submissions so that they can continue their work and have it published later in a journal or conference.</p>
             </div>
-            <div class="showcase">
+            <div id="showcase" class="showcase">
                 <h2>Showcase</h2>
                 <div class="document">
                     <img alt="document-icon" src="../icons/document.svg">
@@ -234,7 +234,7 @@
                 <p>Both the original and showcase submissions should include key references to publicly accessible resources. Both types of submissions should not be anonymized and must be uploaded through HotCRP.</p>
                 <p style="margin: 16px 0 52px 0">Authors may also submit a draft of their poster as supplementary material. They may start following the symposium’s poster guidelines.</p>
             </div>
-            <div class="posters">
+            <div id="posters" class="posters">
                 <h2>Posters</h2>
                 <div class="document">
                     <img alt="document-icon" src="../icons/document.svg">
@@ -284,34 +284,32 @@
                 <p style="margin: 24px 0 16px 0">Each original submission will go through a juried process and receive two anonymized reviews under the following criteria: originality; significance; and validity. Detailed feedback from reviewers will be given to those who will choose to publish their 4-page articles. Light feedback will be given to authors who will choose the other 2 publication options.</p>
                 <p>The submissions under the showcase category will be curated by taking into account the following factors: the number of the accepted original submissions; the geographical diversity of the attendees; and the diversity of research topics. The decision will be sent to the authors without reviews or light feedback.</p>
             </div>
-            <div class="funding-support">
+            <div id="funding-support" class="funding-support">
                 <h2>Funding Support</h2>
                 <p style="margin-top: 24px">Student participants are encouraged to apply for the Gary Marsden Student Development Fund. The eligibility criteria could be checked on the SIGCHI website. If they plan to apply for this fund, they should also submit on the Early Submission deadline to get a decision before the funding application deadline.</p>
             </div>
-            <div class="have-questions" style="padding: 2em 4em 3em 4em">
-                <div style="margin-bottom: 1.5rem;">
-                  <h3 style="font-weight: 700"> Have Questions? Contact Our Program Chairs </h3>
-                  <a href="" style="color: #0667DB; font-weight: bold; text-decoration: none;">paperchairemail@something.com </a>
+           <div class="have-questions">
+                <div>
+                  <h3> Have Questions? Contact Our Program Chairs </h3>
+                  <a class="chair-email" href="">paperchairemail@something.com </a>
                 </div>
-                <div style="display: flex;">
+                <div class="contacts">
                   <div class="contact">
-                      <!-- <div style="width: 120px; height: 120px; background: #C4C4C4"></div> -->
                       <img class="chairs-headshot" alt="program-chair-1" src="../images/chair-placeholder.JPG">
-                      <div class="" style="margin-left: 1.5rem;">
+                        <div>
                         <p style="font-style: bold"> Lorem Ipsum </p>
                         <a href="" class="affiliation-link">Affiliation Link</a>
                       </div>
                   </div>
                   <div class="contact">
-                      <!-- <div style="width: 120px; height: 120px; background: #C4C4C4"></div> -->
                       <img class="chairs-headshot" alt="program-chair-1" src="../images/chair-placeholder.JPG">
-                      <div class="" style="margin-left: 1.5rem;">
+                        <div>
                         <p style="font-style: bold"> Lorem Ipsum </p>
                         <a href="" class="affiliation-link">Affiliation Link</a>
                       </div>
                   </div>
                 </div>
-              </div>
+            </div>
             </main>
         <footer>
             <p>Follow Our Social Media</p>
