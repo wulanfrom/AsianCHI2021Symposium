@@ -26,6 +26,11 @@ window.onload = function() {
             shadowBackground.classList.toggle('shadow');
         })
     }
+
+    const triggerLoad = () => {
+        const loader = document.getElementById("loader-wrapper");
+        $('#loader-wrapper').fadeOut('slow');
+    }
     
     const goToSocialMedia = () => {
         document.getElementById("twitter").onclick = function() {
@@ -57,17 +62,13 @@ window.onload = function() {
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         })
-        // mybutton.onclick(function() {
-
-        // })
     }
     
     const app = () => {
         navSlide();
         goToSocialMedia();
-        // scrollFunction();
-        // topFunction();
         goToTopButton();
+        triggerLoad();
     }
     
     app()
