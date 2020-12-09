@@ -10,14 +10,14 @@ window.onload = function() {
             nav.classList.toggle('nav-active');
     
             //Animate Links
-            navLinks.forEach((link, index) => {
+            /*navLinks.forEach((link, index) => {
                 if (link.style.animation){
                     link.style.animation = '';
                 }
                 else{
-                    link.style.animation = `navLinkFade 0.5s ease forwards ${index / 8}s`
+                    //link.style./animation = `navLinkFade 0.5s ease forwards ${index / 8}s`
                 }
-            });
+            });*/
     
             //Burger Animation
             burger.classList.toggle('toggle');
