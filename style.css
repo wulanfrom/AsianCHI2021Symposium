@@ -6,6 +6,15 @@
     line-height: 180%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #0667DB;
+    font-weight: 700;
+}
+
 h1{
     font-size: 60px;
 }
@@ -37,6 +46,32 @@ h6{
 
 p{
     font-size: 16px;
+}
+
+#separator {
+    margin-top: 16px;
+}
+
+/*Alert Message Box*/
+.alert {
+    padding: 2em;
+    background-color: rgba(2, 40, 122, 0.9);
+    color: white;
+}
+  
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
 }
 
 table{
@@ -185,7 +220,7 @@ nav{
 }
 
 .header-picture{
-    background-image: url("images/yokohama-header.jpg");
+    background-image: url("images/yokohama_office.jpg");
     background-size: 100% 85vh;
 }
 
@@ -350,13 +385,13 @@ nav{
 
 .table-of-content {
   /* display: flex; */
-  margin-bottom: 2em;
+  /* margin-bottom: 2em; */
 }
 
 .table-of-content li {
     display: inline-block;
     padding: 0rem 0.5rem;
-    margin: 1rem 0rem;
+    margin: 0.5rem 0rem;
     list-style-type: none;
     border-left: 2px solid black;
 }
@@ -395,8 +430,8 @@ footer .h4{
 }
 
 .twitter-icon, .facebook-icon{
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
 }
 
 small{
@@ -409,9 +444,6 @@ small{
     margin: 3em 4em;
 }
 
-.introduction h2{
-    margin-bottom: 24px;
-}
 
 .intro-note{
     padding-right: 2em;
@@ -443,10 +475,6 @@ small{
 
 .updates ul li:nth-child(1){
     padding-top: 0;
-}
-
-.updates h2{
-    margin-bottom: 24px;
 }
 
 .updates h4{
@@ -526,6 +554,7 @@ small{
 .make-submission{
     margin: 0 auto;
     display: block;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -616,9 +645,21 @@ small{
 
 
 /* Call for participation EN page */
+.timezone-link {
+    color: #fff;
+}
 
-.submission-details{
-    padding: 2em 0;
+.prepare-submission {
+    padding: 2em 4em;
+}
+
+#submission-details{
+    margin: 2rem 4rem;
+}
+
+.submission-points ul{
+    list-style-type: decimal;
+    margin: 0 0 0 3em;
 }
 
 .document{
@@ -641,11 +682,8 @@ small{
 }
 
 .themes{
-    padding: 2em 0;
-}
-
-.themes h2{
-    margin-bottom: 24px;
+    /*padding: 2em 0;*/
+    margin: 2rem 4rem;
 }
 
 .themes-points{
@@ -685,28 +723,28 @@ small{
 }
 
 .original-works{
-    padding: 2em 4em;
+    padding: 0 4em;
 }
 
-.original-works ul{
-    margin-left: 1em;
-    list-style: none;
+.original-works h5 {
+    margin-bottom: 16px;
 }
 
 .showcase{
-    padding: 2em 4em;
+    padding: 2rem 4rem;
 }
 
-.posters{
-    padding: 2em 4em;
-}
 
 .selection-process{
-    padding: 2em 4em;
+    padding: 2rem 4rem;
 }
 
-.funding-support{
-    padding: 2em 4em;
+.participate-symposium { 
+    padding: 2rem 4rem;
+}
+
+.bl{
+    padding: 2rem 4rem;
 }
 
 .questions-call{
@@ -1007,3 +1045,44 @@ small{
         text-align: center;
     }
 }
+
+/*Footer*/
+#twitter:hover {
+    cursor: pointer;
+}
+
+#facebook:hover {
+    cursor: pointer;
+}
+
+/*Scroll to top*/
+#goToTop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #0667DB; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 100px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+
+    -webkit-box-shadow: -1px 2px 11px 2px rgba(0,0,0,0.25); 
+    box-shadow: -1px 2px 11px 2px rgba(0,0,0,0.25);
+
+}
+  
+#goToTop:hover {
+    background-color: rgba(6, 103, 219, 0.9); /* Add a dark-grey background on hover */
+}
+
+.up-arrow {
+    height: 24px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+
+}
+
