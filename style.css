@@ -865,6 +865,10 @@ small{
     padding: 4em;
 }
 
+.organizer-points {
+    margin-left: 3em;
+}
+
 .program-committee tr td{
     border: 1px solid #C4C4C4;
 }
