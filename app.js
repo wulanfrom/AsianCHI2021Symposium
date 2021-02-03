@@ -9,16 +9,6 @@ window.onload = function() {
         burger.addEventListener('click', () => {
             nav.classList.toggle('nav-active');
     
-            //Animate Links
-            /*navLinks.forEach((link, index) => {
-                if (link.style.animation){
-                    link.style.animation = '';
-                }
-                else{
-                    //link.style./animation = `navLinkFade 0.5s ease forwards ${index / 8}s`
-                }
-            });*/
-    
             //Burger Animation
             burger.classList.toggle('toggle');
     
@@ -63,12 +53,44 @@ window.onload = function() {
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         })
     }
+
+    // clicking call for participation on navbar sends to cfpEn
+    const goToCfpEn = () => {
+        const cfp = document.querySelector('.dropbtn');
+    
+        //Toggle Navbar
+        cfp.addEventListener('click', () => {
+            window.location = 'https://asian-chi.github.io/2021/cfpEn.html'
+        })
+    }
+
+    const setMobileTable = () => {
+        const tableEl = document.querySelector('.ambassadors-table');
+        const thEls = tableEl.querySelectorAll('thead th');
+        const tdLabels = Array.from(thEls).map(el => el.innerText);
+        tableEl.querySelectorAll('tbody tr').forEach( tr => {
+            Array.from(tr.children).forEach( 
+            (td, ndx) =>  td.setAttribute('label', tdLabels[ndx])
+            );
+        });
+
+        // const tableDates = document.querySelector('important-dates-overview');
+        // const tDEls = tableDates.querySelectorAll('thead th');
+        // const tdDates = Array.from(thDls).map(el => el.innerText);
+        // tableDates.querySelectorAll('tbody tr').forEach( tr => {
+        //     Array.from(tr.children).forEach( 
+        //     (td, ndx) =>  td.setAttribute('label', tdDates[ndx])
+        //     );
+        // });
+    }
     
     const app = () => {
         navSlide();
         goToSocialMedia();
         goToTopButton();
         triggerLoad();
+        goToCfpEn();
+        setMobileTable();
     }
     
     app()
